@@ -32,23 +32,23 @@ D. student['Favorite Teacher'].name;
 E. student.courseLoad[0];  
 
 13.  
-A. '32'  
-B. 1  
-C. 3
-D. '3null'
-E. 4
-F. 0
-G. '3undefined'
-H. NaN
+A. '32'    
+B. 1    
+C. 3  
+D. '3null'  
+E. 4  
+F. 0  
+G. '3undefined'  
+H. NaN  
 
-14.
-A. true  
-B. true  
-C. true  
-D. false
-E. true
-F. true
-
+14.  
+A. true   
+B. true    
+C. true    
+D. false  
+E. true  
+F. true  
+  
 15. == attempts to convert types so that they match before trying to compare them while === will not try to convert types and will just return false if the operands are not the same type, even if they could technically be converted into a matching value in a different type.
 
 17. modifyArray will return [ 2, 4, 6 ]. The function doSomething takes in a number as a parameter and doubles the value and then returns it. modifyArray is called with the array [1, 2, 3] and the doSomething function. The modifyArray function iterates through the given array and calls the function that is passed in, in this case the doSomething function on every element, then saves the result in a new array. In this case, each element is doubled and stored into a new array which is then returned which is why the result [ 2, 4, 6 ] is [ 1, 2, 3 ] but with every element doubled in value.
